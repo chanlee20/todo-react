@@ -1,0 +1,65 @@
+
+ .events{
+     padding-top: 30px;
+     margin-top: 30px;
+ }
+
+li{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Anek Tamil', sans-serif;
+    background-color: #a8d5fc;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.delete{
+    position: absolute;
+    right: 14px;
+    margin-top: -10px;
+    background-color: #5274f5;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.todoCompleted{
+    text-decoration: line-through;
+}
+
+/* .boxes{
+    position: absolute;
+    right: 100px;
+    top: 95px;
+    margin-top: 30px;
+} */
+
+@media (min-width: 399px)and (max-width: 768px) {
+    .events{
+     width: 300px;
+    }
+    .delete{
+     position: absolute;
+     right: 60px;
+    }
+    .boxes{
+     position: absolute;
+     right: 140px;
+    }
+    #add-event{
+     position: absolute;
+     left: 40px;
+     width: 55%;
+    }
+    #add{
+     position: absolute;
+     right: 45px;
+    }
+}
