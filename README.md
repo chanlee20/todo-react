@@ -1,4 +1,4 @@
-https://chanlee20.github.io/todo-react/
+https://wustlcse204.github.io/09-todo-react-group-chanlee/
 
 A todo app created using REACT.
 Users can add their todo activities.
